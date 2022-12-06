@@ -1,3 +1,11 @@
 resources:
 - empty
-- 
+- deployment.yaml
+
+nameSuffix: -Blue-C
+
+commLabels:
+  bluegreen: blue
+
+
+
