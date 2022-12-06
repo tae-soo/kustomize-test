@@ -1,3 +1,12 @@
 resources:
-- empty
-- deployment
+- ../../empty
+- ../../../../../Base/deployment1/deployment.yaml
+
+
+nameSuffix: -green-C
+
+commLabels:
+  bluegreen: green
+  canary: canary
+
+
