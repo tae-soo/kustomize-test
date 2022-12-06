@@ -1,2 +1,3 @@
 bases:
-- ../../Base
+- ./deploy/blue/blue-s
+- ./deploy/blue/blue-c
