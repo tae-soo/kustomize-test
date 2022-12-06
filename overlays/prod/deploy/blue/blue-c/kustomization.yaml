@@ -1,8 +1,9 @@
 resources:
 - empty
-- ../blue-s/base-deploy1-deployment.yaml
+- base-deploy1-deployment.yaml
+- prod-deploy1-deployment.yaml
 
-namePrefix: prod-
+
 nameSuffix: -Blue-C
 
 commLabels:
