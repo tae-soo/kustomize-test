@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
         - name: rollout-nginx
-          image: nginx:1.15.6
+          image: nginx:1.15.5
