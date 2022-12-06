@@ -1,3 +1,7 @@
 bases:
 - ./deploy/blue/blue-s
 - ./deploy/blue/blue-c
+- ./deploy/blue/service
+- ./deploy/green/green-s
+- ./deploy/green/green-c
+- ./deploy/green/service
