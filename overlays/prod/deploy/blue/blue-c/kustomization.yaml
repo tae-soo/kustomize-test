@@ -1,7 +1,6 @@
 resources:
-- empty
-- base-deploy1-deployment.yaml
-- prod-deploy1-deployment.yaml
+- ../../empty
+- ../../../../deployment2/deployment.yaml
 
 
 nameSuffix: -Blue-C
