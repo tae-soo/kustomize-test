@@ -1,6 +1,6 @@
 resources:
 - ../../empty
-- ../../../../Base/deployment2
+- ../../../../../Base/deployment2
 
 
 nameSuffix: -Blue-C
