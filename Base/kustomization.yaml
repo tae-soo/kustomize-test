@@ -1,0 +1,22 @@
+resources:
+- deployment.yaml
+
+
+commonLabels:
+  appp: test1234
+
+patches:
+- path: patch.yaml
+  target:
+    kind: Deployment
+    name: deploy1
+
+patchesJson6902:
+- target:
+    version: v1
+    kind: Deployment
+    name: deploy1
+  patch: |-
+    - op: remove
+      path: /spec/selector/appp
+      value: test1234
