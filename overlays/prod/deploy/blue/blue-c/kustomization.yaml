@@ -2,6 +2,7 @@ resources:
 - empty
 - ../blue-s/base-deploy1-deployment.yaml
 
+namePrefix: prod-
 nameSuffix: -Blue-C
 
 commLabels:
