@@ -1,6 +1,7 @@
-bases:
+resources:
 - empty
-- deployment.yaml
+- base-deploy1-deployment.yaml
+- base-deploy1-service.yaml
 
 nameSuffix: -Blue-S
 
