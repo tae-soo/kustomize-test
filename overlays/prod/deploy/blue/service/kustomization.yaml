@@ -1,6 +1,6 @@
 resources: 
-- empty
-- service.yaml
+- ../../empty
+- ../../../../../Base/deployment1/service.yaml
 
 commonLabels:
   bluegreen: blue
