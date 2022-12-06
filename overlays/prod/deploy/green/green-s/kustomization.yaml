@@ -1,1 +1,12 @@
+resources:
+- ../../empty
+- ../../../../../Base/deployment1/deployment.yaml
+
+
+nameSuffix: -green-S
+
+commLabels:
+  bluegreen: green
+  canary: stable
+
 
