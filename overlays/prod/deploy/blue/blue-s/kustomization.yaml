@@ -1,20 +1,10 @@
 bases:
 - empty
-- ../../../prod
+- deployment.yaml
 
-
-namePrefix: Base-deploy1-
 nameSuffix: -Blue-S
 
 
-
-patchesJson6902:
-- target:
-    version: v1
-    kind: Service
-    name: svc-nginx
-    
-  patch: |-
-    - op: replace
-      path: /metadata/name
-      value: deploy1
+commonLabels: 
+  bluegreen: blue
+  canary: stable
