@@ -1,0 +1,4 @@
+bases:
+- ../base/deployment1
+- ../base/deployment2
+
