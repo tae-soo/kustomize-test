@@ -1,2 +1,13 @@
-resources:
-- ../../../../../base/service.yaml
+bases:
+- ../../../prod
+
+patchesJson6902:
+- target:
+    version: v1
+    kind: Deployment
+    name: deploy1
+    
+  patch: |-
+    - op: replace
+      path: /spec/selector/bluegreen
+      value: bluegreen: green
