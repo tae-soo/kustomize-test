@@ -1,13 +1,19 @@
 bases:
 - ../../../prod
 
+
+namePrefix: Base-deploy1-
+nameSuffix: -Blue-S
+
+
+
 patchesJson6902:
 - target:
     version: v1
-    kind: Deployment
-    name: deploy1
+    kind: Service
+    name: svc-nginx
     
   patch: |-
     - op: replace
-      path: /spec/selector/bluegreen
-      value: bluegreen: green
+      path: /metadata/name
+      value: deploy1
